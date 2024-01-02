@@ -1,0 +1,41 @@
+.radio-buttons {
+    display: flex; /* Arrange buttons horizontally */
+    flex-direction: column;
+    /* align-items: center; Align vertically */
+    padding-right: 70%;
+    gap: 10px; /* Space between buttons */
+  }
+  input[type="radio"]:checked + label {
+    background-color: #0871e1; /* Example for a blue background */
+    color: white;
+    display: block;
+    margin-bottom: 10px;
+
+  }
+  
+  label {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-size: contain; /* Fit image within button, maintaining aspect ratio */
+  }
+  
+  img {
+    width: 50px; /* Adjust image size as needed */
+    height: 50px;
+    margin-right: 10px; /* Space between image and text */
+  }
+
+  .continue-button {
+    background-color: #020671;
+    border: none;
+    color: white;
+    padding: 20px 70px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+  }
